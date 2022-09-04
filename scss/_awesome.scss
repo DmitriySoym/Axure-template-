@@ -1,0 +1,66 @@
+/*----awsome---*/
+.awsome {
+  &__body {
+    max-width: 1170px;
+    width: 100%;
+    max-height: 665px;
+    margin: 0px auto 58px;
+  }
+
+  &__header {
+    position: relative;
+  }
+
+  &__row {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 110px;
+  }
+
+  &__column {
+    flex: 1 1 33%;
+  }
+
+  &__element {
+    &:hover {
+      filter: grayscale(1);
+      transition-duration: 0.2s;
+    }
+    &_icon {
+      width: 92px;
+      height: 92px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    &_title {
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: capitalize;
+      color: #000000;
+      max-width: 369px;
+      width: 100%;
+      height: 100px;
+      margin: 39px auto 0;
+    }
+    &_text {
+      font-family: "Raleway";
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      height: 105px;
+      max-width: 370px;
+      margin: 0 auto;
+    }
+  }
+}

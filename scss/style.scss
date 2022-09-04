@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Raleway&display=swap");
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+// Файл обнуляющих стилей
+@import "_nullstyle";
+.wrapper {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+//--------header------------//
+@import "_intro";
+
+//---------social-----------//
+
+@import "_social";
+
+//----------tabs--------------//
+@import "_tabs";
+
+/*-----price------*/
+@import "_price";
+
+//---------awsome part---------------//
+@import "_awesome";
+
+/*-----feedback-----*/
+
+@import "_feedback";
+
+/*-----banner-----*/
+@import "_banner";
+
+/*---------contact us----------*/
+@import "_contactus";
+
+/*------footer----*/
+
+@import "_footer";
+
+/*--@media--*/
+@import "_media";

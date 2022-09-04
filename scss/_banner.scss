@@ -1,0 +1,24 @@
+.banner {
+  &__container {
+    max-width: 1510px;
+    width: 100%;
+    margin: 0 auto;
+    height: 442px;
+    background: url(../img/banner/bg2.svg) no-repeat,
+      url(../img/banner/imagebg.jpg) no-repeat;
+    padding-top: 50px;
+    &_title {
+      color: #ffffff;
+    }
+    &_title::after {
+      border: 1px solid #ffffff;
+    }
+
+    &_discription {
+      color: #ffffff;
+    }
+  }
+}
+.bannerbtn {
+  margin: 73px auto 0;
+}
