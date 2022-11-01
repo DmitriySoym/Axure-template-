@@ -89,6 +89,10 @@ h6 {
   font-weight: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*--------------------*/
 .wrapper {
   overflow: hidden;
