@@ -1,7 +1,7 @@
 /*----menu burger------*/
 
 const menuBurgerActive = document.querySelector(".burgermenu");
-//console.log(menuBurgerActive);
+
 const naveActive = document.querySelector(".menu");
 menuBurgerActive.addEventListener("click", function () {
   menuBurgerActive.classList.toggle("active");

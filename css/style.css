@@ -122,7 +122,8 @@ nav {
 }
 
 .menu.active {
-  display: flex;
+  top: 56px;
+  transform: translate(-13%, 0%);
 }
 
 .menu {
@@ -882,6 +883,7 @@ input[name=r] {
 
 .footericoncontainer img {
   width: 53px;
+  transition: all 0.2s ease-in-out;
 }
 
 .footerrow {
@@ -945,17 +947,17 @@ input[name=r] {
 }
 @media (max-width: 767px) {
   .menu {
-    display: none;
-    max-width: 767px;
+    display: flex;
+    max-width: 781px;
     width: 102%;
     position: absolute;
-    top: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    transform: translateX(-13%);
+    transform: translate(-13%, -114%);
     background-color: black;
     height: 100vh;
+    transition: all 0.3s ease-out;
   }
   nav {
     height: 56px;
