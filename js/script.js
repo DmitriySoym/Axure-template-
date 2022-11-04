@@ -8,6 +8,13 @@ menuBurgerActive.addEventListener("click", function () {
   naveActive.classList.toggle("active");
 });
 
+naveActive.addEventListener("click", function (event) {
+  console.log(event.target);
+  if (event.target.closest(".menu__item") && window.innerWidth < 768) {
+    menuBurgerActive.classList.toggle("active");
+    naveActive.classList.toggle("active");
+  }
+});
 /*--------slider-------------*/
 const parent = document.querySelector(".slide_navigation");
 const labelItem = parent.querySelectorAll(".bar");
