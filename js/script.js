@@ -9,7 +9,6 @@ menuBurgerActive.addEventListener("click", function () {
 });
 
 naveActive.addEventListener("click", function (event) {
-  console.log(event.target);
   if (event.target.closest(".menu__item") && window.innerWidth < 768) {
     menuBurgerActive.classList.toggle("active");
     naveActive.classList.toggle("active");

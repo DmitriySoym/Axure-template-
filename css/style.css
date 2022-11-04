@@ -421,7 +421,7 @@ nav {
 }
 
 .tabs {
-  /* скрыть знак радиоточки */
+  /* ----*/
 }
 .tabs__container {
   display: flex;
@@ -443,9 +443,6 @@ nav {
   cursor: pointer;
   position: relative;
   top: 5px;
-}
-.tabs__itemone > label:not(:first-of-type) {
-  border-left: none;
 }
 .tabs__itemone > input[type=radio]:checked + label {
   border: 1px solid #c6cbcd;
@@ -469,6 +466,10 @@ nav {
   display: flex;
   align-items: center;
   margin-left: 100px;
+}
+
+.img img {
+  width: 470px;
 }
 
 /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
