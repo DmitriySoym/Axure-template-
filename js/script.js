@@ -17,15 +17,13 @@ naveActive.addEventListener("click", function (event) {
 /*--------slider-------------*/
 const parent = document.querySelector(".slide_navigation");
 const labelItem = parent.querySelectorAll(".bar");
-parent.addEventListener("click", (event) => {
-  let target = event.target;
 
-  if (target.classList.contains("bar")) {
+parent.addEventListener("click", (event) => {
+  if (event.target.classList.contains("bar")) {
     for (let i = 0; i < labelItem.length; i++) {
-      // Убираем у других
       labelItem[i].classList.remove("activelabel");
     }
-    // Добавляем тому на который нажали
-    target.classList.add("activelabel");
+
+    event.target.classList.add("activelabel");
   }
 });

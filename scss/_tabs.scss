@@ -20,9 +20,6 @@
     position: relative;
     top: 5px;
   }
-  //   &__itemone > label:not(:first-of-type) {
-  //     border-left: none;
-  //   }
 
   //--бордер tabs active--//
   &__itemone > input[type="radio"]:checked + label {
