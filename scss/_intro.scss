@@ -23,8 +23,9 @@ nav {
 }
 
 .menu.active {
-  top: 56px;
-  transform: translate(-13%, 0%);
+  transform: translate(-13%, 56px);
+  //   opacity: 1;
+  //   visibility: visible;
 }
 
 .menu {
