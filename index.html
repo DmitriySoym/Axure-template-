@@ -9,20 +9,19 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="navwrapper">
-        <nav>
+      <header class="header">
+        <div class="header__container">
           <div class="logo">
             <a href="#">
               <img src="./img/header/AX.svg" alt="logo" /><img
                 src="./img/header/IT.svg"
-                alt="logo"
-              />
+                alt="logo" />
             </a>
           </div>
           <button class="burgermenu">
             <span class="burgermenu_toggle"></span>
           </button>
-          <div class="menu">
+          <nav class="menu">
             <a href="#features">
               <div class="menu__item">features</div>
             </a>
@@ -38,65 +37,61 @@
             <a href="#contact">
               <div class="menu__item">Contact</div>
             </a>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </header>
+
       <main>
-        <section class="header">
-          <div class="header__container">
-            <div class="header__body">
-              <div class="header__body_container">
-                <div class="header__body_text">
+        <section class="intro">
+          <div class="intro__container">
+            <div class="intro__body">
+              <div class="intro__body_container">
+                <div class="intro__body_text">
                   <div class="logoh">
                     <img
-                      class="logoheader"
+                      class="logointro"
                       src="./img/header/AX.svg"
-                      alt="logo"
-                    /><img
-                      class="logoheader"
+                      alt="logo" /><img
+                      class="logointro"
                       src="./img/header/IT.svg"
-                      alt="logo"
-                    />
+                      alt="logo" />
                   </div>
-                  <div class="header__body_title">
+                  <div class="intro__body_title">
                     MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
                   </div>
-                  <div class="header__body_borderbottom"></div>
-                  <div class="header__body_discription">
+                  <div class="intro__body_borderbottom"></div>
+                  <div class="intro__body_discription">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                   </div>
                   <a href="#">
-                    <div class="header__body_button">Download</div>
+                    <div class="intro__body_button">Download</div>
                   </a>
                 </div>
-                <div class="header__body_form">
+                <div class="intro__body_form">
                   <form action="#">
                     <div class="form_title">
                       Try Your <span class="red"> FREE </span> Trial Today
                     </div>
                     <div>
                       <input
-                        class="headerinput"
+                        class="introinput"
                         type="text"
                         placeholder="Name"
-                        name="name"
-                      />
+                        name="name" />
                     </div>
                     <div>
                       <input
-                        class="headerinput"
+                        class="introinput"
                         type="text"
                         placeholder="Email"
-                        name="Email"
-                      />
+                        name="Email" />
                     </div>
                     <div>
                       <input
-                        class="headerinput"
+                        class="introinput"
                         type="password"
                         placeholder="Password"
-                        name="Password"
-                      />
+                        name="Password" />
                     </div>
                     <button class="formbutton">Get Started</button>
                   </form>
@@ -165,8 +160,7 @@
                 name="tab-btn"
                 id="tab-btn-1"
                 value=""
-                checked
-              />
+                checked />
               <label for="tab-btn-1">tab 1</label>
               <input type="radio" name="tab-btn" id="tab-btn-2" value="" />
               <label class="tabs__itemone_head" for="tab-btn-2">tab 2</label>
@@ -436,7 +430,7 @@
                 </div>
               </div>
               <div class="slide_navigation">
-                <label for="r1" class="bar"></label>
+                <label for="r1" class="bar activelabel"></label>
                 <label for="r2" class="bar"></label>
                 <label for="r3" class="bar"></label>
               </div>
@@ -472,32 +466,28 @@
                     class="contactusinput"
                     type="text"
                     placeholder="Name"
-                    name="name"
-                  />
+                    name="name" />
                 </div>
                 <div>
                   <input
                     class="contactusinput"
                     type="text"
                     placeholder="Email"
-                    name="Email"
-                  />
+                    name="Email" />
                 </div>
                 <div>
                   <input
                     class="contactusinput"
                     type="password"
                     placeholder="Password"
-                    name="Password"
-                  />
+                    name="Password" />
                 </div>
               </form>
               <form action="#">
                 <textarea
                   class="textareamessage"
                   name="message"
-                  placeholder="Message"
-                ></textarea>
+                  placeholder="Message"></textarea>
               </form>
             </div>
             <a href="#">

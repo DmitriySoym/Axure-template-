@@ -2,6 +2,11 @@
 
 const menuBurgerActive = document.querySelector(".burgermenu");
 
+// window.onchange(window.innerWidth > 768) {
+// 	menuBurgerActive.classList.remove("active");
+// 	naveActive.classList.remove("active");
+// }
+
 const naveActive = document.querySelector(".menu");
 menuBurgerActive.addEventListener("click", function () {
   menuBurgerActive.classList.toggle("active");

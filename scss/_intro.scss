@@ -1,5 +1,5 @@
 /*-----header-----*/
-.navwrapper {
+.header {
   background-color: #000000;
   max-width: 1510px;
   margin: 0 auto;
@@ -8,13 +8,15 @@
   left: 0;
   right: 0;
   z-index: 1000;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: calc(115 / 1510 * 100%);
+    margin-right: calc(170 / 1510 * 100%);
+  }
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-left: calc(115 / 1510 * 100%);
-  margin-right: calc(170 / 1510 * 100%);
-}
+
 .logo {
   display: flex;
   max-height: 37px;
@@ -22,15 +24,12 @@ nav {
   align-self: center;
 }
 
-.menu.active {
-  transform: translate(-13%, 56px);
-}
-
 .menu {
   display: flex;
   max-width: 570px;
   width: 100%;
   justify-content: space-between;
+
   &__item {
     justify-content: center;
     height: 75px;
@@ -45,14 +44,17 @@ nav {
     width: 114px;
     transition: all 0.3s linear;
   }
+
   &__item:hover {
     background: #ec7979;
   }
+
   &__item:active {
     background: #ab4949;
   }
 }
-.header {
+
+.intro {
   &__container {
     max-width: 1510px;
     width: 100%;
@@ -70,9 +72,11 @@ nav {
       display: flex;
       justify-content: space-between;
     }
+
     &_text {
       padding-top: 306px;
     }
+
     &_title {
       max-width: 670px;
       width: 100%;
@@ -119,10 +123,12 @@ nav {
       border: 2px solid #ffffff;
       transition: all 0.2s linear;
     }
+
     &_button:hover {
       border: 2px solid #ec7979;
       color: #ec7979;
     }
+
     &_button:active {
       background: #ab4949;
       border: 2px solid #ab4949;
@@ -141,7 +147,7 @@ nav {
   }
 }
 
-.headerinput {
+.introinput {
   width: 370px;
   height: 38px;
   margin: 33px auto 0;
@@ -153,9 +159,10 @@ nav {
   color: #bdbdbd;
 }
 
-.logoheader {
+.logointro {
   height: 55px;
 }
+
 .form {
   &_title {
     width: 367px;
@@ -252,13 +259,16 @@ nav {
     }
   }
 }
+
 .burgermenu.active .burgermenu_toggle {
   background: none;
 }
+
 .burgermenu.active .burgermenu_toggle::before {
   transform: rotate(45deg);
   transform-origin: left top;
 }
+
 .burgermenu.active .burgermenu_toggle::after {
   transform: rotate(-45deg);
   transform-origin: left bottom;
