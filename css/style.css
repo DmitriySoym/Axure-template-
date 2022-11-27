@@ -415,6 +415,7 @@ html {
   justify-content: space-between;
 }
 
+/*----------tabs--------------*/
 .tabs {
   /* ----*/
 }
@@ -645,6 +646,7 @@ html {
   color: #86878b;
 }
 
+/*---------awsome part---------------*/
 /*----awsome---*/
 .awsome__body {
   max-width: 1170px;
@@ -879,17 +881,16 @@ input[name=r] {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 28px;
 }
+.footer__row {
+  margin: 0 31.1258278146%;
+}
 
-.footericoncontainer img {
+.footer__icon-container img {
   width: 53px;
   transition: all 0.2s ease-in-out;
 }
 
-.footerrow {
-  margin: 0 31.1258278146%;
-}
-
-.footericoncontainer img:hover {
+.footer__icon-container img:hover {
   transform: translateY(-5px);
   transition-duration: 0.3s;
 }

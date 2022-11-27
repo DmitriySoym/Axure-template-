@@ -16,16 +16,18 @@
     color: rgba(255, 255, 255, 0.5);
     margin-top: 28px;
   }
+
+  &__row {
+    margin: 0 calc(470 / 1510 * 100%);
+  }
 }
 
-.footericoncontainer img {
+.footer__icon-container img {
   width: 53px;
   transition: all 0.2s ease-in-out;
 }
-.footerrow {
-  margin: 0 calc(470 / 1510 * 100%);
-}
-.footericoncontainer img:hover {
+
+.footer__icon-container img:hover {
   transform: translateY(-5px);
   transition-duration: 0.3s;
 }
